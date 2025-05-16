@@ -1,0 +1,87 @@
+/* Estilos para body (Ejercicio 2) */
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clase para centrar, negrita y cursiva el texto (Ejercicio 3) */
+.mi-div p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Estilo para la división que contiene los párrafos (Ejercicio 4) */
+.mi-div {
+  background-color: #d4e6c2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos para header (Ejercicio 5) */
+header {
+  background-color: #69bd45;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para section (Ejercicio 5) */
+section {
+  padding: 20px;
+}
+
+/* Estilos para footer (Ejercicio 5) */
+footer {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilos para nav y enlaces (Ejercicio 6) */
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #2f8247;
+}
+
+/* Estilos para las imágenes (Ejercicio 6d) */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
